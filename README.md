@@ -1,6 +1,6 @@
 ## SCCA_FC_TFEQ ##
 This is code for the paper "Multivariate association between brain function and eating disorders using sparse canonical correlation analysis"
-Link: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237511<br /><br />
+**Link:** https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237511<br /><br />
 
 - **dataloader_cancer.py**  -----  to read data from filenames and save image and label data<br />
 - **classifier.py**         -----  to train classifier and test it with validation dataset<br />
