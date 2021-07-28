@@ -1,3 +1,7 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 data_path = 'Y:/bypark/hblee/eNKI';
 list_rest = dir([data_path, '/A*']);
 suffix = 'REST_645/func_results_REST_645/Smooth_REST_645.nii.gz';
