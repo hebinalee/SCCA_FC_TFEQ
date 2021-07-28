@@ -1,3 +1,7 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  TO OPTIMIZE PARAMETERS USED IN SCCA ANALYSIS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %% 1. Set data and parameter
 addpath(genpath('5.sCCA'))
 addpath(genpath('6.BNA'))
