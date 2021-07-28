@@ -1,3 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  TO PERFORM SCCA ANALYSIS
+%%  (C) The right of this code is reserved by
+%%      Mansu Kim and Ji Hye Won (co-authors)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [w1, w2] = svds_initial1(X, Y, ss_th)
 p1 = size(X, 2);
 p2 = size(Y, 2);
