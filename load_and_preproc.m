@@ -1,3 +1,7 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  TO LOAD AND PREPROCESS MRI DATA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 addpath(genpath('/store4/bypark/ETC/toolbox'))
 
 %% Load T1 path of whole data
