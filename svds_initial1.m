@@ -17,11 +17,6 @@ for ii = 1 : 200
     w1 = soft(w1, fix(lam1));
     w2 = Y' * (X * w1);
     w2 = soft(w2, fix(lam2));
-%     if (ii == 50) || (ii == 100) || (ii == 150) || (ii == 200)
-%         ii
-%         w1
-%         w2
-%     end
 end
 end
 
