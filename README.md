@@ -1,7 +1,8 @@
 ## SCCA_FC_TFEQ ##
 :large_blue_diamond: This is code for the paper **"Multivariate association between brain function and eating disorders using sparse canonical correlation analysis"**<br />
 :large_blue_diamond: **Paper link:** https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237511<br />
-:large_blue_diamond: If you use this code, please cite the article.<br /><br />
+:large_blue_diamond: If you use this code, please cite the article.<br />
+　　*Lee, Hyebin, et al. "Multivariate association between brain function and eating disorders using sparse canonical correlation analysis." Plos one 15.8 (2020): e0237511.*<br /><br />
 
 ✔ We obtained data from **[Enhanced Nathan Kline Institute-Rockland Sample (eNKI) database](http://fcon_1000.projects.nitrc.org/indi/enhanced/access.html)**.<br />
 ✔ Imaging data were preprocessed using **[FuNP pipeline](https://gitlab.com/by9433/funp)**.<br /><br />
