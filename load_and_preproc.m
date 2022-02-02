@@ -3,7 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 basepath = 'X:/path/myfolder';
-addpath(genpath([basepath, '/toolbox']));
+addpath(genpath([basepath, '/toolbox']))
 
 %% Load T1 path of whole data
 datapath = [basepath, '/data/eNKI'];
