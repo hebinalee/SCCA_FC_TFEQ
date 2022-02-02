@@ -8,8 +8,17 @@
 ✔ Imaging data were preprocessed using **[FuNP pipeline](https://gitlab.com/by9433/funp)**.<br /><br />
 
 - **load_and_preproc.m**　　-----　to load and preprocess MRI data<br />
-- **scca_fc_tfeq.m**　　　　　-----　to perform SCCA analysis with functional connectome and eating disorder-related scores<br />
+- **scca_FC_TFEQ.m**　　　　　-----　to perform SCCA analysis with functional connectome and eating disorder-related scores<br />
 - **find_optimal_params.m**　-----　to optimize parameters used in SCCA analysis<br />
 - **svds_initial1.m**　　　　　-----　to perform SCCA, right of this code is reserved by Mansu Kim and JiHye Won (co-authors)<br /><br />
+   
+```bash
+├── README.md
+├── load_and_preproc.m
+├── scca_FC_TFEQ.m
+├── find_optimal_params.m
+└── svds_initial1.m
+```
+<br />
 
 :pushpin: **copyrightⓒ 2020 All rights reserved by Hyebin Lee<br /><br />**
