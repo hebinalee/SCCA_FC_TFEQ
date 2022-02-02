@@ -1,4 +1,4 @@
-# SCCA_FC_TFEQ ##
+# SCCA_FC_TFEQ
 ## About The Project
 :large_blue_diamond: This is code for the paper **"Multivariate association between brain function and eating disorders using sparse canonical correlation analysis"**<br />
 :large_blue_diamond: **Paper link:** https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237511<br />
@@ -15,7 +15,7 @@
 - **find_optimal_params.m**　-----　to optimize parameters used in SCCA analysis<br />
 - **svds_initial1.m**　　　　　-----　to perform SCCA, right of this code is reserved by Mansu Kim and JiHye Won (co-authors)<br /><br />
 
-## Directory structure
+## Directory Structure
 ```bash
 ├── README.md
 ├── load_and_preproc.m
