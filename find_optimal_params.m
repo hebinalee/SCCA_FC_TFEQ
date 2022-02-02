@@ -2,7 +2,7 @@
 %%  TO OPTIMIZE PARAMETERS USED IN SCCA ANALYSIS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-basepath = 'X:/path/myfolder'
+basepath = 'X:/path/myfolder';
 
 %% 1. Set data and parameter
 addpath(genpath([basepath, '/5.sCCA']))
