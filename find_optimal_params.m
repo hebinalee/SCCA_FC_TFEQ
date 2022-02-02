@@ -2,9 +2,11 @@
 %%  TO OPTIMIZE PARAMETERS USED IN SCCA ANALYSIS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+basepath = 'X:/path/myfolder'
+
 %% 1. Set data and parameter
-addpath(genpath('5.sCCA'))
-addpath(genpath('6.BNA'))
+addpath(genpath([basepath, '/5.sCCA']))
+addpath(genpath([basepath, '/6.BNA']))
 load('static_BC.mat'); X = BC;
 load('TFEQ.mat'); Y = TFEQ.rescored;
 X = zscore(X, 0, 1);  % Using standardization
