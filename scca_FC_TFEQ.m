@@ -2,14 +2,13 @@
 %%  TO PERFORM SCCA ANALYSIS WITH FC AND TFEQ
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-data_path = 'Y:/bypark/hblee/eNKI';
-list_rest = dir([data_path, '/A*']);
+basepath = 'X:/path/myfolder';
+datapath = [basepath, '/data/eNKI'];
+list_rest = dir([datapath, '/A*']);
 suffix = 'REST_645/func_results_REST_645/Smooth_REST_645.nii.gz';
 
 % Get BNA atlas map
-% bna_path = 'Y:/bypark/ETC/Atlas/BrainnetomeAtlas/BNA3mm';
-% list_roi = dir([bna_path, '/BNA_region*']);
-bna_path = 'Y:/bypark/ETC/Atlas/BrainnetomeAtlas/BNA3mm/BNA_3mm.nii';
+bna_path = [basepath, '/Atlas/BrainnetomeAtlas/BNA3mm/BNA_3mm.nii'];
 bna = load_nii(bna_path);
 roi = bna.img;
 clear bna
@@ -60,8 +59,8 @@ save('static_BC.mat', 'BC')
 
 %% (5) sCCA
 %% Set data and parameter
-addpath(genpath('5.sCCA'))
-addpath(genpath('6.BNA'))
+addpath(genpath([basepath, '/5.sCCA']))
+addpath(genpath([basepath, '/6.BNA']))
 cen_type = ["DC", "BC"];
 que_type = ["EDEQ", "TFEQ"];
 
@@ -82,7 +81,7 @@ for cen_idx = 1 : 2         % 1: DC, 2: BC
         cca.Y = zscore(Y, 0, 1);
         
         [cca.w1, cca.w2] = svds_initial1(cca.X, cca.Y, [246, 51]);
-%         save(strcat('CCAresults3-', cen_type(cen_idx), '-', que_type(que_idx), '.mat'), 'cca');
+%         save(strcat('CCAresults-', cen_type(cen_idx), '-', que_type(que_idx), '.mat'), 'cca');
     end
 end
  
